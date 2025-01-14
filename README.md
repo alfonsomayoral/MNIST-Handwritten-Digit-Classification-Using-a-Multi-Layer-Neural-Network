@@ -143,8 +143,8 @@ pip install <library_name>
 ---
 ## 📊 **Results and Visualizations**
 #### 1. **Training and Test Accuracy**
-- Training Accuracy: ~88.5%
-- Test Accuracy: ~86.8%
+- Training Accuracy: ~89.6%
+- Test Accuracy: ~87.91%
   
 #### 2. **Loss Over Epochs**
 The loss consistently decreases, demonstrating successful training convergence.
