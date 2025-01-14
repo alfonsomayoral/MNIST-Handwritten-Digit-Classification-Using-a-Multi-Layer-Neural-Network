@@ -5,6 +5,8 @@ This project demonstrates the implementation of a two-layer neural network for c
 [![Libraries](https://img.shields.io/badge/Libraries-Scikit--learn%2C%20Matplotlib%2C%20Seaborn%2C%20Numpy-green)](https://scikit-learn.org/)  
 [![Status](https://img.shields.io/badge/Status-Complete-brightgreen)](#)
 
+![Overview](https://github.com/alfonsomayoral/MNIST-Handwritten-Digit-Classification-Using-a-Multi-Layer-Neural-Network/blob/main/assets/Overview.png)
+
 ## **📖 Overview**
 This project demonstrates the implementation of a two-layer neural network for classifying handwritten digits from the MNIST dataset. By leveraging foundational concepts in machine learning and neural networks, the notebook offers an end-to-end implementation, including:
 
@@ -18,13 +20,14 @@ The primary goal is to showcase a clean, modular approach to multiclass classifi
 
 ## **📋 Table of Contents**
 - 🚀 [Introduction](#-introduction)
-- 🛠  [Implementation Details & Structure](#-implementation-details--structure)
+- 🛠 [Implementation Details](#-implementation-details)
 - 📌 [How to Use](#-how-to-use)
-- 📊 [Visual Results](#-visual-results)
+- 📊 [Results and Visualizations](#-results-and-visualizations)
+- 📈 [Future Work](#-future-work)
 
 ---
 
-### 🚀 **Introduction**
+## 🚀 **Introduction**
 
 The MNIST dataset, a widely recognized benchmark for handwritten digit classification, consists of grayscale images of digits (0–9). Each image is 28x28 pixels, and the dataset includes:
 
@@ -82,9 +85,9 @@ Key steps include:
   - Displays correctly and incorrectly classified images from both training and test sets.
   - Highlights true positives, true negatives, false positives, and false negatives.
  
-  ---
+---
 
-  ### 📌 **How to Use**
+## 📌 **How to Use**
 
 Follow these steps to set up and run the project locally:
 
@@ -137,35 +140,30 @@ pip install <library_name>
 
 ---
 ## 📊 **Results and Visualizations**
-1. Training and Test Accuracy
+1. **Training and Test Accuracy**
 - Training Accuracy: ~88.5%
 - Test Accuracy: ~86.8%
   
-2. Loss Over Epochs
+2. **Loss Over Epochs**
 The loss consistently decreases, demonstrating successful training convergence.
-
+![Epochs](https://github.com/alfonsomayoral/MNIST-Handwritten-Digit-Classification-Using-a-Multi-Layer-Neural-Network/blob/main/assets/Epochs.png)
 
 3. Confusion Matrix
 The confusion matrix highlights the classifier's performance across all classes.
 
-Training Set Confusion Matrix
+| Confusion Matrix               | Result                    |
+|---------------------------------------------|------------------------------------------------|
+| Training Set                   | ![Train Confusion Matrix](https://github.com/alfonsomayoral/MNIST-Handwritten-Digit-Classification-Using-a-Multi-Layer-Neural-Network/blob/main/assets/Train_Confusion_Matrix.png) |
+| Test Set                       | ![Test Confusion Matrix](https://github.com/alfonsomayoral/MNIST-Handwritten-Digit-Classification-Using-a-Multi-Layer-Neural-Network/blob/main/assets/Test_Confusion_Matrix.png) |
 
-Test Set Confusion Matrix
-
-4. ROC Curves and AUC
+4. **ROC Curves and AUC**
+   
 ROC curves visualize the trade-off between the True Positive Rate (TPR) and False Positive Rate (FPR) for each class. The Area Under the Curve (AUC) quantifies classification performance.
 
-
-5. Correct and Misclassified Examples
-Examples of correctly classified and misclassified images from both training and test sets provide qualitative insights into the model's predictions.
-
-**Training Set**
-
-**Test Set**
-
+![ROC Curve](https://github.com/alfonsomayoral/MNIST-Handwritten-Digit-Classification-Using-a-Multi-Layer-Neural-Network/blob/main/assets/Roc_Train.png)
 ---
 
 ## 📈 **Future Work**
-Extend the architecture to a deeper neural network or Convolutional Neural Network (CNN).
-Experiment with different activation functions and optimizers.
-Apply data augmentation techniques to improve generalization.
+- Extend the architecture to a deeper neural network or Convolutional Neural Network (CNN).
+- Experiment with different activation functions and optimizers.
+- Apply data augmentation techniques to improve generalization.
