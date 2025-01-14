@@ -20,7 +20,7 @@ The primary goal is to showcase a clean, modular approach to multiclass classifi
 
 ## **📋 Table of Contents**
 - 🚀 [Introduction](#-introduction)
-- 🖥️ [Neural Network Implementation Details](#-neural-network-implementation-details)
+- 🖥️ [Implementation Details](#-implementation-details)
 - 📌 [How to Use](#-how-to-use)
 - 📊 [Results and Visualizations](#-results-and-visualizations)
 - 📈 [Future Work](#-future-work)
@@ -47,7 +47,7 @@ Key steps include:
 ---
 
 
-## 🖥️ **Neural Network Implementation Details**
+## 🖥️ **Implementation Details**
 
 
 #### **1. Data Preprocessing**
