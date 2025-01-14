@@ -20,7 +20,7 @@ The primary goal is to showcase a clean, modular approach to multiclass classifi
 
 ## **📋 Table of Contents**
 - 🚀 [Introduction](#-introduction)
-- 🛠 [Implementation Details](#-implementation-details)
+- 🖥️ [Neural Network Implementation Details](#-neural-network-implementation-details)
 - 📌 [How to Use](#-how-to-use)
 - 📊 [Results and Visualizations](#-results-and-visualizations)
 - 📈 [Future Work](#-future-work)
@@ -46,7 +46,9 @@ Key steps include:
 
 ---
 
-## 🛠️ **Implementation Details**
+
+## 🖥️ **Neural Network Implementation Details**
+
 
 #### **1. Data Preprocessing**
 - **Dataset**: The MNIST dataset was loaded using the `Keras` library.
@@ -140,15 +142,15 @@ pip install <library_name>
 
 ---
 ## 📊 **Results and Visualizations**
-1. **Training and Test Accuracy**
+#### 1. **Training and Test Accuracy**
 - Training Accuracy: ~88.5%
 - Test Accuracy: ~86.8%
   
-2. **Loss Over Epochs**
+#### 2. **Loss Over Epochs**
 The loss consistently decreases, demonstrating successful training convergence.
 ![Epochs](https://github.com/alfonsomayoral/MNIST-Handwritten-Digit-Classification-Using-a-Multi-Layer-Neural-Network/blob/main/assets/Epochs.png)
 
-3. Confusion Matrix
+#### 3. Confusion Matrix
 The confusion matrix highlights the classifier's performance across all classes.
 
 | Confusion Matrix               | Result                    |
@@ -156,7 +158,7 @@ The confusion matrix highlights the classifier's performance across all classes.
 | Training Set                   | ![Train Confusion Matrix](https://github.com/alfonsomayoral/MNIST-Handwritten-Digit-Classification-Using-a-Multi-Layer-Neural-Network/blob/main/assets/Train_Confusion_Matrix.png) |
 | Test Set                       | ![Test Confusion Matrix](https://github.com/alfonsomayoral/MNIST-Handwritten-Digit-Classification-Using-a-Multi-Layer-Neural-Network/blob/main/assets/Test_Confusion_Matrix.png) |
 
-4. **ROC Curves and AUC**
+#### 4. **ROC Curves and AUC**
    
 ROC curves visualize the trade-off between the True Positive Rate (TPR) and False Positive Rate (FPR) for each class. The Area Under the Curve (AUC) quantifies classification performance.
 
